@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  width: 100px;
+  height: 34px;
+  background-color: darkorange;
+  color: white;
+  border: none;
+  border-radius: 24px;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.padding {
+  padding-left: 10px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+}
+.navigation figure img {
+  width: 100px;
+  height: 60px;
+}
+.navigation nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+main aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+}
+main aside section {
+  display: flex;
+  flex-direction: column;
+}
+main .main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .main-content .content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+main .main-content .content .article-list {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 10px;
+}
+main .main-content .content h1 {
+  width: 200px;
+  height: -moz-min-content;
+  height: min-content;
+}
+main .main-content footer {
+  width: 100%;
+}

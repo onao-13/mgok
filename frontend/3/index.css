@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.content {
+  background-color: lightcyan;
+  padding: 10px;
+}
